@@ -17,10 +17,13 @@ leaf_model_identity = "dtmi:gatewayExample:myLeafDevice;1"
 gateway_id = "my_Gateway"
 gateway_model_id = "dtmi:gatewayExample:gateway;1"
 
-id_scope = "0ne0005C8ED"
-group_symmetric_key = "tzR2IDTirROdS3jg0KrYIs6j/+xTxgHYcs6EpYt/ibCpASN6nfX8vSMouw7LhcMGxAcmKUxVOkEhrYSaR1l8dA=="
+# device settings - FILL IN YOUR VALUES HERE
+scope_id = "<Put your scope id here from IoT Central Administration -> Device connection>"
+group_symmetric_key = "<Put your group SAS primary key here from IoT Central Administration -> Device Connection -> SAS-IoT-Devices>"
 
+# optional device settings - CHANGE IF DESIRED/NECESSARY
 provisioning_host = "global.azure-devices-provisioning.net"
+
 terminate = False
 
 device_list = {}
