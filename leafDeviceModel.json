@@ -1,0 +1,24 @@
+[
+  {
+    "@id": "dtmi:gatewayExample:myLeafDevice;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:gatewayExample:myLeafDevice:temp;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "temp"
+        },
+        "name": "temp",
+        "schema": "double"
+      }
+    ],
+    "displayName": {
+      "en": "My Leaf Device"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]

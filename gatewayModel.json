@@ -1,0 +1,24 @@
+[
+  {
+    "@id": "dtmi:gatewayExample:gateway;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:gatewayExample:gateway:signalStrength;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "signal strength"
+        },
+        "name": "signalStrength",
+        "schema": "double"
+      }
+    ],
+    "displayName": {
+      "en": "Gateway Device"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]
