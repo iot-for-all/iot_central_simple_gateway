@@ -46,7 +46,7 @@ async def connect_device(device_context):
         provisioning_device_client = ProvisioningDeviceClient.create_from_symmetric_key(
             provisioning_host=provisioning_host,
             registration_id=device_context["device_id"],
-            id_scope=id_scope,
+            id_scope=scope_id,
             symmetric_key=device_context["device_symmetric_key"],
             websockets=True
         )
@@ -92,7 +92,7 @@ async def main():
     provisioning_device_client = ProvisioningDeviceClient.create_from_symmetric_key(
         provisioning_host=provisioning_host,
         registration_id=gateway_id,
-        id_scope=id_scope,
+        id_scope=scope_id,
         symmetric_key=gateway_key,
         websockets=True
     )
