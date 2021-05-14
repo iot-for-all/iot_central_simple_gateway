@@ -1,6 +1,6 @@
 # iot_central_simple_gateway
 
-Illustrates how to Device Provisioning Service (DPS) register devices to a simple gateway device so they are related in IoT Central.  The sample is written using Python 3 and requires a minimumm version of 3.7
+Illustrates how to Device Provisioning Service (DPS) register devices to a simple gateway device so they are related in IoT Central.  The sample is written using Python 3 and requires a minimum version of 3.7
 
 &nbsp;
 ## Whats this sample all about?
